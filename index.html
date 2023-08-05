@@ -10,7 +10,8 @@
 <link rel = "preconnect" href="https://fonts.googleapis.com">
 <link rel = "preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href = "https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel = "stylesheet" href = "css/style.css">
+<script src="https://kit.fontawesome.com/d27103244a.js" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href = "css/styles.css">
 <title>Griot Theater Company</title>
 </head>
 <body>
@@ -50,24 +51,105 @@
           </div>
         </div>
       </nav>
-        <div class = "col-lg">
-          <img src = "images/theater-image-background.png" class = "img-fluid">
-        </div>
-        <div class="card mx-auto d-block text-center" style="width:400px">
-          <img class="card-img-bottom rounded" src="images/raisin.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">A Raisin in the Sun</h4>
-            <p class="card-text">April 6, 2020 - March 20, 2020</p>
-            <p class="card-text">Griot Theatre 233 State St Chicago,IL</p>
-            <p class="card-text">Price: $75</p>
-            <a href="#" class="btn btn-primary">Purchase tickets now!</a>
+      <!-- background stage image -->
+        <div class = "container-fluid">
+          <div class="row">
+            <div class="bg-img d-flex justify-content-center align-items-center background">
+              <h1 class="front-text">Featured Shows</h1>
+            </div> 
           </div>
         </div>
-        <div class="col-lg bg-black bg-gradient p-5">
-          <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Contact Us</a>
-          <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Socials</a>
-          <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Shows</a>
+        <!-- Shows section -->
+        <div class="card-group">
+          <div class="card">
+            <img src="images/raisin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">A Raisin In The Sun</h2>
+              <h5 class="card-text fw-semibold">April 6, 2020 - March 12, 2021</h5>
+              <p class="card-text">Griot Theater, 233 State St Chicago, IL</p>
+              <p class="card-text">Entry: $75</p>
+            </div>
+            <div class="card-footer">
+              <button class = "btn btn-primary text-white" type="submit">Reserve Tickets</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/raisin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">A Raisin In The Sun</h2>
+              <h5 class="card-text fw-semibold">April 6, 2020 - March 12, 2021</h5>
+              <p class="card-text">Griot Theater, 233 State St Chicago, IL</p>
+              <p class="card-text">Entry: $75</p>
+            </div>
+            <div class="card-footer">
+              <button class = "btn btn-primary text-white" type="submit">Reserve Tickets</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/raisin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title fw-bold">A Raisin In The Sun</h2>
+              <h5 class="card-text fw-semibold">April 6, 2020 - March 12, 2021</h5>
+              <p class="card-text">Griot Theater, 233 State St Chicago, IL</p>
+              <p class="card-text">Entry: $75</p>
+            </div>
+            <div class="card-footer">
+              <button class = "btn btn-primary text-white" type="submit">Reserve Tickets</button>
+            </div>
+          </div>
+        </div>
 
+        <!-- Footer Section -->
+        <div class="container-fluid bg-black p-5">
+          <div class="row">
+            <div class="map col">
+                <img src="/images/chicago map screenshot.png" alt="Chicago Map" class="mapimg">
+            </div>
+            <div class="info col p-5 text-center">                    
+                <div class="foothead col"><h1>Info</h1></div>
+                <div class="location p-2">
+                  <p class="tiny"><i class="fa-solid fa-location-dot" style="color: #cd9637;"></i> Townsville, UL 55555 United States</p>
+                </div>
+                <div class="email p-2">
+                  <p class="tiny"><i class="fa-solid fa-envelope" style="color: #cd9637;"></i> example@example.com</p>
+                </div>
+                <div class="phone p-2">
+                  <p class="tiny"><i class="fa-solid fa-phone" style="color: #cd9637;"></i> Call Us: 555.555.5555</p>
+                </div>    
+            </div>
+            <div class="shows col p-5 text-center">
+              <div class="foothead"><h1>Shows</h1></div>
+              <div class="show p-2">
+                  <a href="#"><p class="tiny">The Piano Lesson</p></a>
+              </div>
+              <div class="show p-2">
+                  <a href="#"><p class="tiny">A Raisin In The Sun</p></a>
+              </div>
+              <div class="show p-2">
+                  <a href="#"><p class="tiny">FAME</p></a>
+              </div>
+              <div class="show p-2">
+                  <a href="#"><p class="tiny">The Color Purple</p></a>
+              </div>   
+            </div>
+            <div class="social col p-5 text-center">
+              <div class="col">
+                <div class="foothead"><h1>Social</h1></div>
+                <div class="social p-2">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook" style="color: #cd9637;"></i> Facebook</p></a>
+                </div>
+                <div class="social p-2">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-twitter" style="color: #cd9637;"></i> Twitter</p></a>
+                </div>
+                <div class="social p-2">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-youtube" style="color: #cd9637;"></i> Youtube</p></a>
+                </div>
+                <div class="social p-2">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-instagram" style="color: #cd9637;"></i> Instagram</p></a>
+                </div>
+              </div>                
+            </div>
+          </div>        
         </div>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
